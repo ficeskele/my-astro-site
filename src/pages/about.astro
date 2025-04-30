@@ -14,28 +14,28 @@ const today = new Date();
 
     <!-- 1. 簡短自我介紹 -->
     <p>
-      我是林睿霖（Ruei-Lin Lin），畢業於國立交通大學電機工程學系，現於國立臺灣大學電信工程學研究所，希望自己可以保持Ｔ型知識獲取的同時成為一名熱衷於創造的 Builder，目前專注於數位訊號處理與量化金融交易策略開發。
+      我是林睿霖（Ruei-Lin Lin），畢業於國立交通大學電機工程學系，現於國立臺灣大學電信工程學研究所，希望自己可以保持Ｔ型知識獲取的同時成為一名熱衷於創造的 Builder，目前專注於數位訊號處理研究與軟體概念驗證開發。
     </p>
 
     <!-- 2. 專業技能與經歷 -->
     <p>
-      我的技術棧包括 JavaScript / TypeScript、Python、Astro、React 與 Node.js，熟悉 OpenCV 電腦視覺與金融資料分析，曾參與 ETH Taipei Hackathon，並在多家軟體公司擔任兼職開發，負責 Google Cloud、Firebase 與自動化報表整合專案。
+      從電機系半路出家，從管顧比賽到創業比賽再到 Web3 開發，最後回到電類研究，對於商業分析、專案管理、財務工程、數位信號處理和區塊鏈 Defi 技術等領域有濃厚興趣，並持續在這些領域中累積經驗。<br />
     </p>
 
     <!-- 3. 代表專案 -->
 	<div class="projects">
-	<p>精選專案：</p>
+	<h2>曾經的一些想法</h2>
 	<ul class="project-list">
 		<li>
 		<strong>EquiPilot</strong>：
 		<p class="project-desc">
-			Web3 股權分配計算工具，整合區塊鏈智能合約與前端 UI，提升早期創業團隊透明度。
+			Web3 股權分配計算工具，整合區塊鏈智能合約與前端 UI，提升早期新創團隊透明度及與 Web2 人才合作效率。
 		</p>
 		</li>
 		<li>
-		<strong>RoadVision</strong>：
+		<strong>ARtisan</strong>：
 		<p class="project-desc">
-			基於 Python＋OpenCV 的車道線偵測與偏移量計算演算法，實現即時影像處理與可視化。
+			透過 AR 建模技術，讓零售商能夠為消費者提供即時互動體驗，增加商家坪效與消費者黏著度。
 		</p>
 		</li>
 	</ul>
@@ -44,8 +44,12 @@ const today = new Date();
 
     <!-- 4. 價值觀與未來願景 -->
     <p>
-      我相信科技能降低投資與創新的門檻，未來欲深入 AI 驅動的量化交易策略研究，並持續撰寫教學文章，幫助更多同好快速上手 Astro 與金融工程領域。
-    </p>
+      我相信 Web3 將會是下一個 MEGA trend，並且會改變我們的生活方式，也希望能夠在這個領域中發揮我的專業技能，並且與志同道合的人一起創造出更好的產品和服務。<br />
+	</p>
+
+	<p>
+	  如果你有酷點子，或是想要一起合作的話，歡迎隨時聯絡我！我會持續在這個網站上分享我的學習筆記、專案經驗和一些有趣的想法，希望能夠幫助到更多的人。<br />
+	</p>
 
     <!-- 5. 私下生活 & 聯絡方式 -->
     <p>
@@ -79,26 +83,27 @@ const today = new Date();
   }
 
   .prose-container p + .projects {
-  margin-bottom: 3rem;
-}
+	margin-bottom: 3rem;
+  }
 
   .projects {
 	margin-top: 0rem;        /* 上緊一下 */
   	margin-bottom: 1rem;
-	}
+  }
 
-	.project-list {
+  .project-list {
 	list-style: none;
 	padding-left: 1rem; /* 整個列表往右縮一格 */
-	}
+  }
 
-	.project-list > li {
+  .project-list > li {
+	margin-top: 0rem;  
 	margin-bottom: 1rem;
-	}
+  }
 
-	.project-desc {
+  .project-desc {
 	margin: 0.5rem 0 0.5rem 1.5rem; /* 內文再往右多縮一格 */
 	line-height: 1.6;
-	}
+  }
 
 </style>
