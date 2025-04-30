@@ -14,6 +14,10 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 	
 	<body
     style="
+	  display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0; /* 把預設的 body margin 去掉 */
       background-image: linear-gradient(rgba(6, 5, 5, 0.67), rgba(0, 0, 0, 0.43)), url('../楊至誠_BostonTrip_0905_65.jpg');
       background-size: cover;
       background-position: center;
@@ -22,48 +26,61 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 	  
     ">
 		<Header />
-		<main style="color: #ffffff;">
+		<main 
+		  style="color: #ffffff;
+      		display: flex;           /* ← 新增：flex container */
+		    flex-direction: column;   /* ← 內容直列排列 */
+			flex: 1;           /* 讓 main 撐滿剩餘空間 */
+        	padding: 3rem;     /* 視需要加一些內距 */
+       ">
 			<h1 style="color: #ffffff;">🧊 Hello, Everyone!</h1>
 			
 			<p>
-				My name is Ruei-Lin Lin, and I am a software engineer,and currently in the middle of my master's degree in NTU GICE. 
+				My name is Ruei-Lin Lin, and I am a software engineer, and want to find the next MEGA trend to ride on. 
 			</p>
 			<p>
 				There's lots of things I want to share with, including my study notes,
 				projects, some of my personal mindset, and most importantly
 			</p>
 			<p>
-				>> My life journey.
+				&emsp; >> The Stone I Stepped.
 			</p>
-			<p>
-				This is a blog template built with <a href="https://astro.build/">Astro</a> and
-				<a href="https://astro.build/blog/introducing-astro">Astro's new blog feature</a>.
-				It is designed to be a simple, clean, and easy-to-use starting point for your own blog.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to
-				<a href="https://docs.astro.build/">read the docs</a>
-				or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out
-				<a href="https://github.com/Charca/astro-blog-template">astro-blog-template</a>
-				by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
+
+			<p style="margin: 2rem 0 1rem;">
+		      
+			  The Word I said : 
+			  <a
+		        href="/blog"          /* 或換成你的 blog 路徑 */
+		        style="
+		          color: #ffffff;
+		          text-decoration: underline;
+		          font-weight: bold;
+		        "
+		      >
+		        View all blog posts
+		      </a>
+			  <br />
+			  The things I have done :
+			  <a
+		        href="/about"
+		        style="
+		          color: #ffffff;
+		          text-decoration: underline;
+		          font-weight: bold;
+		        "
+		      >
+		        View my about page
+		      </a>
+		    </p>
+
+			<p
+		      style="
+		        margin-top: auto;     /* ← 新增：自動推到底部 */
+		      ">
+		      Contact Info : <br />
+			  &emsp;Email : Icelin0130@gmail.com
+		    </p>
+			
 		</main>
 		<Footer />
 	</body>
