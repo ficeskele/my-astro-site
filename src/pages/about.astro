@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/BlogPost.astro';
+const today = new Date();
 ---
 
 <Layout
@@ -8,55 +9,96 @@ import Layout from '../layouts/BlogPost.astro';
 	pubDate={new Date('April 30 2025')}
 	heroImage="/C493BDA5-14EB-4B44-98B1-12588CD8F0FC.JPG"
 >
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-		labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo
-		viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam
-		adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus
-		et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus
-		vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque
-		sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
-	</p>
+	<div class="prose-container">
+    <h2>關於我</h2>
 
-	<p>
-		Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non
-		tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non
-		blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna
-		porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis
-		massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc.
-		Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis
-		bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra
-		massa massa ultricies mi.
-	</p>
+    <!-- 1. 簡短自我介紹 -->
+    <p>
+      我是林睿霖（Ruei-Lin Lin），畢業於國立交通大學電機工程學系，現於國立臺灣大學電信工程學研究所，希望自己可以保持Ｔ型知識獲取的同時成為一名熱衷於創造的 Builder，目前專注於數位訊號處理與量化金融交易策略開發。
+    </p>
 
-	<p>
-		Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl
-		suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet
-		nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae
-		turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem
-		dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat
-		semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus
-		vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum
-		facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam
-		vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla
-		urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
-	</p>
+    <!-- 2. 專業技能與經歷 -->
+    <p>
+      我的技術棧包括 JavaScript / TypeScript、Python、Astro、React 與 Node.js，熟悉 OpenCV 電腦視覺與金融資料分析，曾參與 ETH Taipei Hackathon，並在多家軟體公司擔任兼職開發，負責 Google Cloud、Firebase 與自動化報表整合專案。
+    </p>
 
-	<p>
-		Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper
-		viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc
-		scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur
-		gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus
-		pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim
-		blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id
-		cursus metus aliquam eleifend mi.
-	</p>
+    <!-- 3. 代表專案 -->
+	<div class="projects">
+	<p>精選專案：</p>
+	<ul class="project-list">
+		<li>
+		<strong>EquiPilot</strong>：
+		<p class="project-desc">
+			Web3 股權分配計算工具，整合區塊鏈智能合約與前端 UI，提升早期創業團隊透明度。
+		</p>
+		</li>
+		<li>
+		<strong>RoadVision</strong>：
+		<p class="project-desc">
+			基於 Python＋OpenCV 的車道線偵測與偏移量計算演算法，實現即時影像處理與可視化。
+		</p>
+		</li>
+	</ul>
+	</div>
 
-	<p>
-		Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta
-		nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam
-		tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci
-		ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar
-		proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
-	</p>
+
+    <!-- 4. 價值觀與未來願景 -->
+    <p>
+      我相信科技能降低投資與創新的門檻，未來欲深入 AI 驅動的量化交易策略研究，並持續撰寫教學文章，幫助更多同好快速上手 Astro 與金融工程領域。
+    </p>
+
+    <!-- 5. 私下生活 & 聯絡方式 -->
+    <p>
+      
+      Contact me:<br />
+      &emsp;<strong>Email:</strong> icelin0130@gmail.com<br />
+    </p>
+  </div>
 </Layout>
+
+<style>
+  .prose-container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    color: var(--gray-dark);
+    line-height: 1.8;
+  }
+  .prose-container h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .prose-container p + p {
+    margin-top: 1.5rem;
+  }
+  /*   可額外微調連結顏色  */
+  .prose-container a {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+
+  .prose-container p + .projects {
+  margin-bottom: 3rem;
+}
+
+  .projects {
+	margin-top: 0rem;        /* 上緊一下 */
+  	margin-bottom: 1rem;
+	}
+
+	.project-list {
+	list-style: none;
+	padding-left: 1rem; /* 整個列表往右縮一格 */
+	}
+
+	.project-list > li {
+	margin-bottom: 1rem;
+	}
+
+	.project-desc {
+	margin: 0.5rem 0 0.5rem 1.5rem; /* 內文再往右多縮一格 */
+	line-height: 1.6;
+	}
+
+</style>
