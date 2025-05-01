@@ -5,12 +5,10 @@ pubDate: 'Oct 11 2024'
 heroImage: '/20241011/theme_photo.jpg'
 ---
 
-*Everything is signal with noise*
+> *Everything is signal with noise*
 
 
-Fig 1. 林睿霖，2024 YEFer，現就讀國立陽明交通大學電機工程學系
-
-在 YEF 這趟旅程之前
+##### 在 YEF 這趟旅程之前
 
 我是林睿霖，一位交大電機的大四生。我總是會在期中、期末的前幾天，在最不該做「其他雜務」的時候，打開一個新的專案。
 
@@ -20,12 +18,20 @@ Fig 1. 林睿霖，2024 YEFer，現就讀國立陽明交通大學電機工程學
 
   
 
-![一張含有 服裝, 人員, 男人, 室內 的圖片
-自動產生的描述](/20241011/second.jpg)
+<figure style="display: flex; flex-direction: column; align-items: center; margin: 2rem 0;">
+  <img
+    src="/20241011/second.jpg"
+    alt="在 Garage Party 首次將創業題目展現給專業的創投評審們"
+    style="max-width: 100%; height: auto; border-radius: 12px;"
+  />
+  <figcaption style="margin-top: 0.5rem; font-size: 0.875rem; color: #666; text-align: center;">
+    Fig 2. 在 Garage Party 首次將創業題目展現給專業的創投評審們
+  </figcaption>
+</figure>
 
-Fig 2. 在 Garage Party 首次將創業題目展現給專業的創投評審們
 
-Young Entrepreneurs of the Future ( YEF )
+ 
+##### Young Entrepreneurs of the Future ( YEF )
 
 如果你在選擇進入這個活動之前，想要確認自己是否適合，我會建議你直接去報名，因為 YEF 並沒有所謂適合的人，而是讓每個不同個性的人互相磨練的一場比賽。
 
@@ -35,31 +41,49 @@ Young Entrepreneurs of the Future (YEF) 是一場長達六到七個月的比賽�
 
 我在這個階段能給出的最好建議就是：
 
-#不要相信你所看到別人展現的，要關注他們願意花時間持續經營的領域與經驗。
+『 不要相信你所看到別人展現的，要關注他們願意花時間持續經營的領域與經驗。 』
 
 在 YEF 中，重點一直都不是要讓自己的意見最為突出，而是在組隊的過程中，尋找可以用各自彼此的 Mental Model 互相塑造的隊友。
 
 以我們團隊為例，我們在繳交報告的前兩週，依然對現有的題目充滿質疑，也無法想出具有可執行性的計畫。於是，我們選擇冷靜地坐下來，開始闡述彼此曾經感興趣的領域或曾經探索過的題目，慢慢地彼此了解，最後偶然發現，在這次的討論後多出了許多創新且務實的新想法。這就是經過大家 Mental Model 雕琢過後的結晶。
 
-### Mental Model：每個人都可以透過自己的經驗對同一件是擁有不同的見解與角度，而自身從小打造的「獨特的視角」就是 Mental Model.
 
-![一張含有 人員, 服裝, 牆, 男人 的圖片
-自動產生的描述](/20241011/theme.jpg)
+_註：Mental Model：每個人都可以透過自己的經驗對同一件是擁有不同的見解與角度，而自身從小打造的「獨特的視角」就是 Mental Model._
 
-Fig 3. 第一天前往 MIT 參訪，圖中校徽由 2003 年校友捐贈
 
-Boston trip  2024
+<figure style="display: flex; flex-direction: column; align-items: center; margin: 2rem 0;">
+  <img
+    src="/20241011/theme.jpg"
+    alt="在 Garage Party 首次將創業題目展現給專業的創投評審們"
+    style="第一天前往 MIT 參訪，圖中校徽由 2003 年校友捐贈"
+  />
+  <figcaption style="margin-top: 0.5rem; font-size: 0.875rem; color: #666; text-align: center;">
+    Fig 3. 第一天前往 MIT 參訪，圖中校徽由 2003 年校友捐贈
+  </figcaption>
+</figure>
+
+---
+
+### Boston trip  2024
 
 先講結論：在這趟旅程過後，我變得不再焦慮，且每天都更加忙碌。
 
 在波士頓的每一天，不論是 MIT 的教授、哈佛的創業顧問，或是一個剛剛起步的新創科技工程師，他們都像是我們眼中——至少我眼中——我一直努力想要變成的「夢想中的畫面」。但我發現，跟我原來想像的不一樣。
 
-  
 
-![一張含有 人員, 服裝, 牆, 人的臉孔 的圖片
-自動產生的描述](/20241011/fourth.jpg)Fig 4. 與 John Guttag 教授合影
+<figure style="display: flex; flex-direction: column; align-items: center; margin: 2rem 0;">
+  <img
+    src="/20241011/fourth.jpg"
+    alt="在 Garage Party 首次將創業題目展現給專業的創投評審們"
+    style="Fig 4. 與 John Guttag 教授合影"
+  />
+  <figcaption style="margin-top: 0.5rem; font-size: 0.875rem; color: #666; text-align: center;">
+    Fig 4. 與 John Guttag 教授合影
+  </figcaption>
+</figure>
 
-- 他們熱愛自己在做的事，“ They stressed, but not depressed. ”
+
+##### _他們熱愛自己在做的事，“They stressed, but not depressed.”_
     
 
 他們在年輕的時候，也就是我們這個年紀，就找到了願意許下 Commitment 的領域，並留心深造。我回看我的大學生涯，發現許多疑惑與茫然，甚至是壓抑，是因為我並不知道我應該往哪裡走，而非如何往前走。真正會讓我迷失的是方向，而非方法。
@@ -81,22 +105,23 @@ Boston trip  2024
   </figcaption>
 </figure>
 
-- “ Having Perspectives. ”
+#### _“Having Perspectives.”_
     
+```
+1. 「你未來想要做什麼職業？」
 
-「你未來想要做什麼職業？」
+2. 「你的專業要選哪個？」
 
-「你的專業要選哪個？」
-
-「你喜歡做什麼事？」
+3. 「你喜歡做什麼事？」
+```
 
 我相信讀到大學的我們對這三個問句都十分不陌生。但在這個選擇越來越多的環境中，其實回答這三個問題變得越來越困難。
 
 這次我們在參訪 Harvard Innovation Lab 的時候，詢問了主持人兼顧問 Jorge Cortell：
 
-「您會給予我們這個年紀（20～22 歲）何種建議？」
+_「您會給予我們這個年紀（20～22 歲）何種建議？」_
 
-「在這個年紀，我們沒辦法對未來的目標進行有效的投資，所以最重要的是你必須要 Having Perspectives。」——Jorge Cortell
+_「在這個年紀，我們沒辦法對未來的目標進行有效的投資，所以最重要的是你必須要 Having Perspectives。」——Jorge Cortell_
 
 從 YEF 的過程中或是從以前的學業人生，我們都常常被問到這種「大哉問」類型的題目：「你應該要如何選擇專業？」又或是「你的創業應該要如何退場？」其實對於所有人來說，這些問題都可以回答得很有邏輯，如果我們以金錢收益為斷定好壞的基準的話。然而，當這些問題遇到感受，就是另一件事了。
 
@@ -114,7 +139,7 @@ Jorge Cortell 想要告訴我們的是，在我們這個階段，我們應該要
   </figcaption>
 </figure>
 
-- "Everything is signal with noise"
+#### _"Everything is signal with noise"_
     
 
 最後幾天在 C10 Labs，他們試圖讓 AI 的新創去噪（de-noise），他們堅信 Everything is signal with noise，讓新創堅定在他們需要堅持的方法並努力做到最好。
@@ -127,27 +152,21 @@ Jorge Cortell 想要告訴我們的是，在我們這個階段，我們應該要
 ![一張含有 人員, 人的臉孔, 戶外, 微笑 的圖片
 自動產生的描述](/20241011/seven.jpg)
 
-結語
+##### 結語
 
 因為這趟旅程，我發現自己跨領域的嘗試，雖然非常不合理，也讓我的成績無法非常完美，但也是這些經歷讓我知道自己到底會對哪些境遇有所感受。我非常感謝當初不論是大一與朋友們熬夜到凌晨的自己，或是大三義無反顧參與 YEF 的自己。感謝自己的勇敢，讓自己可以在有限的時間內挑戰並了解自己的想法，讓我在這個年紀對於未來的刻畫更加具體 ................ 
 
 且令我嚮往。
 
-致謝
+##### 致謝
 
-謝謝士朋的救命 MIT 學餐券，那個咖哩魚真的很好吃。
-
-謝謝宇庭二話不說的支持。
-
-感謝 Flyer I 全數隊友的陪伴、芝瓴、秀惠、婷勻決賽前一晚的不放棄以及最後決賽的展現。
-
-感謝慕天學長、品妤學姊的推薦與支持。
-
-謝謝其餘 16 位代表的陪伴，你們是最適合一起這趟遠行的朋友。
-
-謝謝時代基金會的努力以及這次成長的機會。
-
-特別感謝 Josephine 的指點與分享。
+_謝謝士朋的救命 MIT 學餐券，那個咖哩魚真的很好吃。_
+_謝謝宇庭二話不說的支持。_
+_感謝 Flyer I 全數隊友的陪伴、芝瓴、秀惠、婷勻決賽前一晚的不放棄以及最後決賽的展現。_
+_感謝慕天學長、品妤學姊的推薦與支持。_
+_謝謝其餘 16 位代表的陪伴，你們是最適合一起這趟遠行的朋友。_
+_謝謝時代基金會的努力以及這次成長的機會。_
+_特別感謝 Josephine 的指點與分享。_
 
 最後，謝謝支持我的家人。
 
@@ -155,12 +174,12 @@ Jorge Cortell 想要告訴我們的是，在我們這個階段，我們應該要
 
 ==================
 
-立即申請成為未來創業人：https://signup.epoch.org.tw/
+立即申請成為未來創業人：https://signup.epoch.org.tw/ 
 
-Epoch School 官方網站：https://school.epoch.org.tw/
+Epoch School 官方網站：https://school.epoch.org.tw/ 
 
-Epoch School 臉書粉絲專頁：https://www.facebook.com/epochschooltw
+Epoch School 臉書粉絲專頁：https://www.facebook.com/epochschooltw 
 
-Epoch School IG：[https://www.instagram.com/epoch_school/](https://www.instagram.com/epoch_school/)
+Epoch School IG：[https://www.instagram.com/epoch_school/](https://www.instagram.com/epoch_school/) 
 
 **
