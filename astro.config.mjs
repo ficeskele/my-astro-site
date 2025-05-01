@@ -5,7 +5,10 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
+	// 1. Set your GitHub Pages project repo name here:
+	base: '/my-astro-site/',
+	// 2. (Optional but recommended) the full URL of the published site:
+	site: 'https://ficeskele.github.io/my-astro-site/',
 	integrations: [mdx(), sitemap()],
 	outDir: 'docs',
 });
