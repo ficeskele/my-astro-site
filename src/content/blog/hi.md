@@ -1,5 +1,5 @@
 ---
-title: '[Mindset] 在對號入座的人生中，試著思考自己適合什麼'
+title: '[Mindset] 2024YEF - 在對號入座的人生中，試著思考自己適合什麼'
 description: 'Everything is signal with noise.'
 pubDate: 'Oct 11 2024'
 heroImage: '/20241011/theme_photo.jpg'
@@ -170,7 +170,12 @@ _特別感謝 Josephine 的指點與分享。_
 
 最後，謝謝支持我的家人。
 
-  
+---
+
+Contact Info : <br />
+&emsp;Email : Icelin0130@gmail.com <br/>
+
+Feel free to contact me !!!
 
 ==================
 
