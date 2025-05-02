@@ -109,6 +109,7 @@ const today = new Date();
 		</strong>
 		</li>
 
+		<li class="divider"><hr class="section-divider" /></li>
 		
 	</ul>
 	<p>
@@ -169,5 +170,19 @@ const today = new Date();
 	margin: 0.5rem 0 0.5rem 1.5rem; /* 內文再往右多縮一格 */
 	line-height: 1.6;
   }
+
+	/* 調整分隔線樣式 */
+	.project-list .divider {
+	list-style: none;      /* 取消預設圓點 */
+	padding: 0;
+	margin: 2rem 0;        /* 上下留白 */
+	}
+
+	.section-divider {
+	border: 0;
+	border-top: 1px solid var(--gray);  /* 分隔線顏色 */
+	width: 100%;                        /* 滿版 */
+	}
+
 
 </style>
