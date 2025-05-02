@@ -13,6 +13,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 <html lang="zh">
 	<head>
 		<BaseHead title={title} description={description} />
+		<base href={import.meta.env.DEV ? '/' : import.meta.env.BASE_URL} />
 		<style>
 			main {
 				width: calc(100% - 2em);
